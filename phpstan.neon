@@ -1,0 +1,12 @@
+parameters:
+    level: 3
+    scanDirectories:
+      - ../tutor-pro
+      - ../woocommerce
+    paths:
+        - .
+    excludePaths:
+        # Exclude the Composer vendor directory
+        - vendor
+        # Exclude the GitHub Actions workflow directory
+        - .github
